@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.ba6f70e3a31f645bc2a3c23fdcd7e3ee.css"],"names":[],"mappings":"AACA,KACE,eACF,CAEA,wBACE,iBAAkB,CAClB,+BAAmC,CACnC,cACF","file":"app.ba6f70e3a31f645bc2a3c23fdcd7e3ee.css","sourcesContent":["\n#app {\n  margin-top: 60px;\n}\n\n#timer[data-v-4185722e] {\n  text-align: center;\n  font-family: 'Overpass', sans-serif;\n  font-size: 40px;\n}\n"]}

@@ -12,7 +12,7 @@ export default {
     return {
       Pitch: {
         startTime: 0,
-        endTime: 3000,
+        endTime: 120000,
         countSeconds: 0,
         isEnd: false
       }
@@ -31,7 +31,7 @@ export default {
       this.Pitch.countSeconds = Math.floor((this.Pitch.endTime - this.Pitch.startTime) / 1000)
     },
     count: function () {
-      if (this.seconds === 0) {
+      if (this.minutes === 0 && this.seconds === 0) {
         this.complete()
       } else {
         this.countDown()
